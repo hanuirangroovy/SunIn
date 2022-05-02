@@ -1,0 +1,9 @@
+.alarm_content {
+  text-align: center;
+}
+
+.alarm_ybar {
+  width: auto;
+  height: 200px;
+  overflow-y: scroll;
+}

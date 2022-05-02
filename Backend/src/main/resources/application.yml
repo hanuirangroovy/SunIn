@@ -1,0 +1,72 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  application:
+    name: oauth2
+  data:
+    mongodb:
+      authentication-database: admin
+      username: sunin
+      password: BUKQ@3rbfM=+NY7sGmP^
+      database: sunin
+      port: 27017
+      host: i6c210.p.ssafy.io
+  security:
+    user:
+      name: ssafy
+      password: ssafy
+  datasource:
+    url: jdbc:mysql://i6c210.p.ssafy.io:3306/sunin?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    username: sunin
+    password: BUKQ@3rbfM=+NY7sGmP^
+  jpa:
+    hibernate:
+      ddl-auto: none # 유의해주세요!!
+      use-new-id-generator-mappings: true
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  thymeleaf:
+    cache: false
+  profiles:
+    include:
+      - oauth
+      - aws
+      - credentials
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+#logging:
+#  level.org.springframework: debug
+#  level.org.springframework.web: debug
+
+# cors 설정
+cors:
+  allowed-origins: "http://i6c210.p.ssafy.io"
+  allowed-methods: GET,POST,PUT,DELETE,OPTIONS
+  allowed-headers: "*"
+  max-age: 3600
+
+# jwt secret key 설정
+jwt:
+  secret: c2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQtc2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQK
+#  secret: ENC(jGKmciAnyrtj+Ht6hzsC7fHv9R67FxH38qJdsn+km/fYNaz/xxzfpB90la/9tlAXubj7mKZvbqmaC98Th/3xeA4SWIYTo++VzTnqZxOZbrwOCf3m2qn5YXo6EbgFH02G)
+
+# jasypt
+jasypt:
+  encryptor:
+    bean: jasyptStringEncryptor
+    password: ssafy
+#    password : ENC(QxiQKa7GkBsypVEVvAqpVQ==)
+
+# 토큰 관련 secret Key 및 RedirectUri 설정
+app:
+  auth:
+    tokenSecret: 926D96C90030DD58429D2751AC1BDBBC
+    tokenExpiry: 1800000
+    refreshTokenExpiry: 604800000
+  oauth2:
+    authorizedRedirectUris:
+      - http://i6c210.p.ssafy.io/oauth/redirect

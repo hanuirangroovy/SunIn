@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    s3:
+      bucket: sunin-bucket
+      url: https://sunin-bucket.s3.ap-northeast-2.amazonaws.com
+#      url: ENC(eQLkLaRziI6Pk1MSuT4D+J154TC1FIPSpuLZr6U18VoeqicXYqbtieulGpQ14aKVseemc4N99iLMD2uRW8gy8A==)
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB

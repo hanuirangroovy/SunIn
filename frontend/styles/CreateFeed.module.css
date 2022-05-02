@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&family=Nanum+Gothic+Coding&display=swap');
+
+.con{
+    /* font-family: 'Nanum Gothic Coding', monospace; */
+    font-family: 'Jua', sans-serif;
+    /* font-family: 'Gamja Flower', cursive; */
+    font-size: larger;
+}
+
+.form {
+  background-color: rgb(250, 250, 250);
+  text-align: center;
+  padding: 30px;
+  border-width: thin;
+  border-style: double;
+  border-color:rgb(148, 148, 148);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+.swiperStyle {
+  position: "relative";
+  width: 300px;
+  height: 300px;
+}

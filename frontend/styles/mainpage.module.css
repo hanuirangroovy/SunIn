@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hahmlet:wght@100&family=Jua&family=Nanum+Gothic+Coding&display=swap');
+.test{
+    width: 100%;
+    height: 500px;
+}
+.first{
+    width: 100%;
+    height: 300px;
+    color: black;
+}
+
+.mainhead{
+    color: blue;
+}
+
+.title{
+  font-family: 'Gamja Flower', cursive;
+  font-size: 2.0vw;
+  font-weight: 600;
+  padding-top: 15px;
+  
+  color: rgb(0, 0, 0);
+}
+
+.content{
+  font-family: 'Gamja Flower', cursive;
+  font-size: 1.5vw;
+  color: rgb(0, 0, 0);
+}
+
+.mainzero{
+  padding-left: 7%;
+  height: 250px;
+  padding-top: 35px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 1.5vw;
+  color: rgb(0, 0, 0);
+}
+
+.mainfirst{
+  text-align: right;
+  padding-right: 7%;
+  line-height: 30px;
+  height: 250px;
+  padding-top: 20px;
+  background-color: #EFF6E6;
+}
+
+.mainsecond{
+    padding-left: 7%;
+    height: 250px;
+    padding-top: 25px;
+    line-height: 30px;
+    background-color: #DDECCB;
+
+}
+
+.mainthird{
+    text-align: right;
+    padding-right: 7%;
+    padding-top: 25px;
+    height: 250px;
+    line-height: 30px;
+    background-color: #9ED4A2;
+}
+
+.footer{
+  padding-top: 30px;
+text-align: center;
+height: 200px;
+color: teal;
+line-height: 50px;
+font-size: 17px;
+font-family: 'Hahmlet', serif;
+}
+
+.contact{
+  font-weight: bold;
+  padding-top: 30px;
+  text-align: center;
+  height: 150px;
+  color: teal;
+  line-height: 50px;
+  font-size: 23px;
+  font-family: 'Hahmlet', serif;
+}
+
+
+.distributed{
+  display: block;
+  padding-top: 30px;
+  text-align: center;
+  height: 100px;
+  color: teal;
+  line-height: 50px;
+  font-size: 25px;
+  font-family: 'Hahmlet', serif;
+  font-size: 15px;
+}

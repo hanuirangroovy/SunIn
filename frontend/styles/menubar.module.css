@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&family=Nanum+Gothic+Coding&display=swap');
+
+.con{
+    font-family: 'Jua', sans-serif;
+}
+
+.title{
+    font-family: 'Jua', sans-serif;
+    font-size: large;
+    color: black;
+}
+
+
+.setting{
+    display: inline;
+    font-family: 'Jua', sans-serif;
+}

@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.swiper-container {
+  height: 700px;
+  width: 100%;
+  margin: 40px 0;
+  padding: 45px 0;
+}
+
+.swiper-slide {
+  opacity: 0.4;
+  overflow: hidden;
+  transition: 0.7s;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1.2);
+}

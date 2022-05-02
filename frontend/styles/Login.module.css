@@ -1,0 +1,25 @@
+.location {
+  margin-top: 12%;
+}
+
+.guide_location {
+  color: red;
+}
+
+.headeralign {
+  margin-top: 50px;
+  margin: 30px;
+}
+
+.social_login_button {
+  /* margin: auto; */
+  padding-top: 1%;
+  align-content: center;
+}
+
+.sunin_diplay{
+  align-content: center;
+}
+.logintop{
+  padding-top: 55px;
+}
