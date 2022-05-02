@@ -152,7 +152,7 @@
   - 1/13
     - [화면설계](/문서/화면설계/readme.md)
     - [DB 결정](/문서/화면설계/readme.md)
-    - [ERD](/문서/ERD 설계/readme.md)
+    - [ERD](/문서/ERD_설계/readme.md)
 
 ### 공통-sub PJT Ⅱ
 
@@ -175,6 +175,5 @@
 
   - Frontend : 추가 기능 구현, 구현 기능 점검 및 보수
   - Backend : api 수정 및 성능 개선
-  
   
   
